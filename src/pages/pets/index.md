@@ -2,21 +2,29 @@
 templateKey: pet-page
 title: All my pets
 ---
+### 
+
+### Penelope (Penny)
+
+Our puppy, born Christmas Eve 2020. We call her my golden shadow.
+
+![](/img/penny.jpeg)
+
 ### Murdock
 
-My Dog. Husky/GSP mix. 60-70lbs with a lot of fur.
+My old boy. Husky/GSP mix. 70-80lbs with that double coat. He's Fluffy.
 
 ![Murdock and me](/img/murdock.jpg)
 
 ### Tiberius
 
-My Cat. Got him from a foster as a kitten. I wanted an orange long haired cat, and my wife helped me find him.
+My Cat. This 15 lb furball has a healthy pair of lungs and a wonderfully soft coat. Can usually be found in my lap.
 
 ![Tiberius on the couch.](/img/tiberius-on-couch.jpg)
 
 ### Braille
 
-Cat. One eye is blind. Very snuggly and loyal. Our most skittish cat.
+Wife's Cat. One eye is blind. Very snuggly and loyal. We're pretty sure she can see into other dimensions.
 
 ![Braille being herself.](/img/braille.jpg)
 
@@ -28,7 +36,7 @@ My first cat. Found her as a kitten under a porch, and brought her home with the
 
 ### Sawyer
 
-The snuggliest doggo.
-He's the family emotional support animal who gives and takes more love than any other living creature.
+Wife's snuggliest doggo.
+He's the family emotional support animal who has more love than any other living creature. Penny's bff.
 
 ![Sawyer being fancy.](/img/sawyer.jpg)

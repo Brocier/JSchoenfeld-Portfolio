@@ -15,7 +15,7 @@ const items = [
   {
     src: firstPic,
     altText: "First Slide of laptop and coffee",
-    title: `Joshua Schoenfeld`,
+    title: `Josh Schoenfeld`,
     description: `
     Analytical | Passionate | Innovative`,
     clas: "first-slide"
@@ -108,12 +108,12 @@ export default class Slider extends Component {
         {slides}
         <CarouselControl
           direction="prev"
-          directionText="Previous"
+          directionText=" "
           onClickHandler={this.previous}
         />
         <CarouselControl
           direction="next"
-          directionText="Next"
+          directionText=" "
           onClickHandler={this.next}
         />
       </Carousel>

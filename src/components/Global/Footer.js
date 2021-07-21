@@ -11,7 +11,7 @@ const Footer = () => (
         JSchoenfeld
       </Link>
       <p className="p-0 m-0 text-muted lead" href="#">
-        &copy;2018. All Rights Reserved by JSchoenfeld.
+        &copy;{new Date().getFullYear()}. All Rights Reserved by JSchoenfeld.
       </p>
       <a
         className="p-0 m-0 navbar-brand text-muted"

@@ -26,11 +26,13 @@
   p {
     background-color: transparent;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
   }
   @media screen and (min-width: 768px) {
-    bottom: 30vh;
+    bottom: 18vh;
     h3 {
-      font-size: 7vh;
+      font-size: 9vh;
       font-weight: bold;
     }
   }

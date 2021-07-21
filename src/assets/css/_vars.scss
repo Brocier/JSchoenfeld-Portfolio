@@ -8,6 +8,11 @@ $iconSize: 50px;
 $tileWidth: 280px;
 $tileHeight: 160px;
 
+img, svg {
+  width: 100%;
+}
+
+
 /* mixins */
 
 /* responsive layout */

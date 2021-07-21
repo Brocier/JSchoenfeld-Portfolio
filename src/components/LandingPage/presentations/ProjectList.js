@@ -55,8 +55,11 @@ export default class ProjectList extends Component {
       <div className="list-container">
         <span
           onClick={this.handleLeftClick}
+          onKeyDown={this.handleLeftClick}
           className="list-controls left-controls"
           role="button"
+          tabIndex={0}
+          aria-label="Left Control"
         />
 
         <div className="module-section clearfix">
@@ -68,8 +71,11 @@ export default class ProjectList extends Component {
 
         <span
           onClick={this.handleRightClick}
+          onKeyDown={this.handleRightClick}
           className="list-controls right-controls"
           role="button"
+          tabIndex={0}
+          aria-label="Right Control"
         />
       </div>
     );

@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: `/netflixclone`,
   siteMetadata: {
     siteUrl: "https://www.joshuaschoenfeld.com",
     title: "JSchoenfeld Portfolio site"
@@ -72,7 +71,9 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of the content container
               // as this plugin uses this as the base for generating different widths of each
               // image.
-              maxWidth: 2048
+              maxWidth: 2048,
+              linkImagesToOriginal: false,
+              withWebp: true
             }
           }
         ]
@@ -84,7 +85,6 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`
       }
     },
-    "gatsby-plugin-netlify-cache",
     "gatsby-plugin-netlify" // make sure to keep it last in the array
   ]
 };

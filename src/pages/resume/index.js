@@ -8,8 +8,8 @@ const Resume = () => (
   <Layout>
     <Helmet title="Resume | Josh's Portfolio" />
     <div className="container" id="resume">
-      <object width="100%" height="1000px" data={resume}>
-        Resume Object
+      <object type="application/pdf" width="100%" height="1000px" data={resume}>
+        Josh Schoenfeld's Resume
       </object>
     </div>
   </Layout>
